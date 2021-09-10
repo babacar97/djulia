@@ -1,0 +1,160 @@
+@import url
+(
+  "https://fonts.googleapis.com/css2? family = Montserrat: wght @ 100 & display = swap"
+);
+body {
+  margin: 80px 80px;
+  background-color: black;
+}
+
+.container {
+  padding: 20px 40px;
+  background-image: url(DJULIA.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.menu {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 10px;
+}
+
+.menu img {
+  width: 70px;
+  height: 70px;
+  margin-left: 120px;
+}
+
+nav .onglets a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+nav .onglets a:hover {
+  background: #726e6e;
+}
+
+nav .onglets {
+  padding-top: 20px;
+}
+
+nav .langue {
+  display: flex;
+  padding-top: 20px;
+  margin-right: 50px;
+}
+
+nav .langue .EN a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 10px;
+}
+nav .langue .RU a {
+  text-decoration: none;
+  color: #7f7e7e;
+  margin-right: 10px;
+}
+
+.info .gauche .t {
+  border-left: 1px solid white;
+  height: 170px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+.info .gauche .icons {
+  color: white;
+  font-size: 30px;
+  list-style-type: none;
+}
+.info .gauche .icons ul {
+  list-style-type: none;
+  margin-left: 95px;
+}
+.info .gauche .icons li {
+  padding-top: 5px;
+}
+.info .gauche .txt {
+  color: white;
+  margin-left: 140px;
+}
+.info {
+  display: flex;
+}
+.info .gauche .txt .txt1 {
+  margin-left: -10px;
+}
+.info .droite {
+  display: inline;
+  color: white;
+  font-style: "Shadows Into Light", cursive;
+  margin-left: 5%;
+  margin-top: 110px;
+  font-size: 75px;
+}
+.info .droite .tby {
+  margin-left: 25%;
+}
+
+.info .droite .para {
+  font-size: 10px;
+  padding-top: 50px;
+}
+
+.cercle {
+  width: 150px;
+  height: 150px;
+  background: #ef9000;
+  border-radius: 100%;
+  margin-left: 600px;
+}
+
+.cercle a p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.cercle a {
+  text-decoration: none;
+  color: white;
+  align-items: center;
+}
+
+.cercle {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  background: white;
+  height: 0.03em;
+  width: 1em;
+  margin-right: 0.5em;
+  position: relative;
+  transition: 0.2s;
+}
+.btn::before,
+.btn::after {
+  position: absolute;
+  content: "";
+  background: white;
+  height: 0.03em;
+  width: 0.1em;
+  right: 0;
+  top: 0;
+}
+.btn::before {
+  transform: rotate(45deg);
+  transform-origin: right bottom;
+}
+.btn::after {
+  transform: rotate(-45deg);
+  transform-origin: right top;
+}
